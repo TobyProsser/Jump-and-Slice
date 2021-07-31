@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3941003092194834093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3941003092194834095}
+  - component: {fileID: 3941003092194834092}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3941003092194834095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941003092194834093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3941003092194834092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941003092194834093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2710391f1b03f704e9918f414bc31e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BeatLevel
+    clip: {fileID: 8300000, guid: d301b52f450e2cc4897c3aca1dd164dd, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: BeatLevel2
+    clip: {fileID: 8300000, guid: 31cc3c77f07c20b40b0151aab18e4655, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyGrowl
+    clip: {fileID: 8300000, guid: 767954efac8906a4da0f7a3d89ac3cc0, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: 2a890fa7ea8d1e847a16ff60a21e5d9d, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: HeavyLand
+    clip: {fileID: 8300000, guid: ac87c40c67933444f94c00ed89ced097, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: a94112d918e648143b9209bf47e6c85b, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: LoseHeart
+    clip: {fileID: 8300000, guid: 9b2b2ee6e89951946a22d678bbba5da7, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: MaskGuySound
+    clip: {fileID: 8300000, guid: f07938f7783224a418077e61c68b8d0a, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: PotionBreak
+    clip: {fileID: 8300000, guid: b654fe9f2a9f51843b58356b353d7c6e, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Sheep
+    clip: {fileID: 8300000, guid: 5d86c0e24ef5d87448e626e36e36a732, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: SwordSwing
+    clip: {fileID: 8300000, guid: 5d86c0e24ef5d87448e626e36e36a732, type: 3}
+    volume: 0.482
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: SwordSwing2
+    clip: {fileID: 8300000, guid: be2661b19d519574abc5e32b140b95eb, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 1
+    source: {fileID: 0}
+  - name: LevelLost
+    clip: {fileID: 8300000, guid: 2920d99e68f9db047bd0362d20cdbb8f, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: TimerStart
+    clip: {fileID: 8300000, guid: 330d7f0c1ccc2d04aa6bb0ba509b4574, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Walking
+    clip: {fileID: 8300000, guid: dad1f8032becf5b4a87894396c6d66a2, type: 3}
+    volume: 0.559
+    pitch: 1.926
+    loop: 1
+    source: {fileID: 0}
+  - name: NormalLand
+    clip: {fileID: 8300000, guid: 6ea78c9ebe3f27a4a8ddb0eb685d5df7, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: NormalLand2
+    clip: {fileID: 8300000, guid: 1fb3af6e52b7fc0438d7c7ac07a2cf9c, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 94453a9ccda50f34eb94605bf47a0c4c, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 74fd041bd5fd9874f9f630aba2f01434, type: 3}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
